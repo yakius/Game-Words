@@ -1,11 +1,11 @@
 import telebot
 from telebot.types import (Message, ReplyKeyboardMarkup, ReplyKeyboardRemove, CallbackQuery,
                             InlineKeyboardMarkup, InlineKeyboardButton as IB)
-from config import*
 
 
 words = []
 users_id = []
+TONEN = "ВАШ ТОКЕН"
 bot = telebot.TeleBot(TOKEN)
 
 
